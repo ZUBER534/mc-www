@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Bota Minecraft</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        form { max-width: 300px; margin: auto; }
+        input, button { display: block; width: 100%; margin: 10px 0; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Wpisz dane bota</h1>
+    <form action="/start-bot" method="POST">
+        <input type="text" name="username" placeholder="Nick bota" required>
+        <input type="password" name="password" placeholder="Hasło" required>
+        <button type="submit">Uruchom Bota</button>
+    </form>
+</body>
+</html>
