@@ -1,0 +1,13 @@
+{
+  "name": "moj-bot",
+  "version": "1.0.0",
+  "description": "Prosty panel do sterowania botem Minecraft",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mineflayer": "^5.5.0"
+  }
+}
